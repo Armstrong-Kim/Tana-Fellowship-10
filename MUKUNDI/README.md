@@ -10,7 +10,7 @@ The catalog includes the following information for each book:
 
 - **name**: Title of the book.
 
-- **type**: Indicates whether the book is of type fiction or non-fiction.
+- **type**: Indicates whether the book is fiction or non-fiction.
 
 - **available**: Indicates if the book is currently available in the library.
 
