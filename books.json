@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name" : "The Russian",
+    "type" : "fiction",
+    "available" : true
+  },
+  {
+    "id": 2,
+    "name" : "Just as I Am",
+    "type":"non-fiction",
+    "available":false
+  },
+  {
+    "id": 3,
+    "name":"The Vanishing Half",
+    "type":"fiction",
+    "available":true
+  }
+]
+    
