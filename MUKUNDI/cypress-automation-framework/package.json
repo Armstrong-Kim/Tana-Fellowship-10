@@ -1,0 +1,20 @@
+{
+	"name": "cypress-automation-framework",
+	"version": "1.0.0",
+	"description": "Cypress Cucumber Automation Framework",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Mercy Mukundi",
+	"license": "ISC",
+	"devDependencies": {
+		"@badeball/cypress-cucumber-preprocessor": "^20.0.3",
+		"@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+		"cypress": "^13.7.2",
+		"ts-loader": "^9.5.1"
+	},
+	"cypress-cucumber-preprocessor": {
+		"stepDefinitions": "cypress/support/step_definitions/**/*.js"
+	}
+}
