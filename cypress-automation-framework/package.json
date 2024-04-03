@@ -18,5 +18,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
   }
 }
