@@ -21,10 +21,10 @@ An automated test designed to validate the functionality of the Contact Us page 
 
 ### Passed Tests Screenshot
 
-![Contact Us page automation tests passed successfully!](/MUKUNDI/cypress-automation-framework/assets/images/Screenshot%202024-04-03%20114034.png 'All tests passed successfully')
+![Contact Us page automation tests passed successfully!](/assets/images/Screenshot%202024-04-03%20114034.png 'All tests passed successfully')
 
 ### Video Demonstration
 
-<video src="/MUKUNDI/cypress-automation-framework/assets/videos/Recording 2024-04-03 142329.mp4" width="320" height="240" controls>
+<video src="/assets/videos/Recording 2024-04-03 142329.mp4" width="320" height="240" controls>
   Contact Us page automation tests passed successfully!
 </video>
