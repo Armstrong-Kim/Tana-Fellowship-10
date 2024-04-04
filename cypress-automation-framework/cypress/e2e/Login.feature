@@ -1,3 +1,4 @@
+@login @regression
 Feature: webdriveruniversity - Login Page
 
   Background: Preconditions

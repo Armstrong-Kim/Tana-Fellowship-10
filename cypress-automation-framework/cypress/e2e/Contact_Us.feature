@@ -1,3 +1,4 @@
+@contact-us @regression
 Feature: WebdriverUniversity - Contact Us Page
 
   Background: Preconditions
@@ -27,7 +28,8 @@ Feature: WebdriverUniversity - Contact Us Page
     And I type a specific word "hello123" and number 6788 within the comment input field
     And I click on the submit button
     Then I should be presented with a successful contact us submission message.
-    
+
+  @smoke
   Scenario Outline: Valid Contact Us Page
     And I type a first name <firstName> and a last name '<lastName>'
     And I enter an email address '<emailAddress>' and a comment '<comment>'
@@ -35,7 +37,7 @@ Feature: WebdriverUniversity - Contact Us Page
     Then I should be presented with a header text '<message>'
 
     Examples:
-      |firstname|lastName|emailAddress|comment|message|
-      |John|Doe|johndoe@email.com|Hello, how are you?|Thank You for your Message!|
-      |Jane|Yoh|yohjane@prosp.com|Test123 Test321|Thank You for your Message!|
-      |Grace|Hudson|grace_hudson|Do you create website?|Error: Invalid email address|
+      | firstname | lastName | emailAddress      | comment                | message                      |
+      | John      | Doe      | johndoe@email.com | Hello, how are you?    | Thank You for your Message!  |
+      | Jane      | Yoh      | yohjane@prosp.com | Test123 Test321        | Thank You for your Message!  |
+      | Grace     | Hudson   | grace_hudson      | Do you create website? | Error: Invalid email address |
