@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "full-regression-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/*.feature' && node cucumber-html-report.js",
     "full-regression-headless-chrome": "cypress run --browser chrome --spec 'cypress/e2e/*.feature' && node cucumber-html-report.js",
-    "contact-us-tests-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/Contact_Us.feature' && node cucumber-html-report.js",
+    "cart-tests-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/Cart.feature' && node cucumber-html-report.js",
     "contact-us-tests-headed": "cypress run -e TAGS=\"@contact-us\" --headed && node cucumber-html-report.js",
     "contact-us-tests-headless": "cypress run -e TAGS=\"@contact-us\" && node cucumber-html-report.js",
     "login-tests-headed": "cypress run -e TAGS=\"@login\" --headed && node cucumber-html-report.js",
