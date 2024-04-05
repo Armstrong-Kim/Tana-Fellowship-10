@@ -18,5 +18,9 @@ Feature: SauceDemo - Login Page
             | username        | password     | expectedErrorMessage                                                      |
             | mukundi         | secret_sauce | Epic sadface: Username and password do not match any user in this service |
             | standard_user   | mukundi123   | Epic sadface: Username and password do not match any user in this service |
-            # |                 |              | Epic sadface: Username is required                                        |
             | locked_out_user | secret_sauce | Epic sadface: Sorry, this user has been locked out.                       |
+
+    Scenario: Login with empty fields
+        Given I navigate to the SauceDemo login
+        And I click on the login button
+        Then I should be presented with an error message "Epic sadface: Username is required"
